@@ -210,7 +210,10 @@ main {
 footer {
     background-color: #083452;
     color: white;
-
+    color: lightgray;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .footerimage {
@@ -219,10 +222,23 @@ footer {
 }
 
 #tiylogo {
+    width: 50px;
+    height: 40px;
+}
 
+#logo-copyright {
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
 }
 
 #navitems {
+    margin-left: 120px;
+
+}
+
+.item {
     list-style-type: none;
     display: inline-block;
+    color: lightgray;
 }
