@@ -104,25 +104,46 @@ main {
     margin: 0px 5px 0px 5px;
 }
 
+blockquote {
+    border-left: 1px lightgray solid;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 10px 10px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #106db3
+}
+
 .subheader-text {
     font-family: 'Open Sans', sans-serif;
 }
 
 .author-name {
-
+    padding: 5px 20px 5px 0px;
+    margin-top: 0;
+    font-size: 12px;
 }
 
 .on {
-
+    padding: 5px 10px 5px 0px;
+    margin-top: 0;
+    font-size: 12px;
 }
 
 .article-date {
-    padding: 5px;
+    padding-top: 5px;
+    margin-top: 0;
+    font-size: 12px;
 }
 
 .article-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+}
+
+#share-icons {
+    display: flex;
+    flex-direction: row;
+    background color: black;
 }
 
 #left-main {
@@ -192,6 +213,7 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    border-top: 1px lightgray solid;
 }
 
 #popular-posts {
@@ -199,6 +221,8 @@ main {
     color: #083452;
     margin: 0 auto;
     font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #footerphotos {
@@ -219,26 +243,67 @@ footer {
 .footerimage {
     width: 284px;
     height: 309px;
+    background-color: #106db3
 }
 
 #tiylogo {
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
 }
 
 #logo-copyright {
     margin-right: 120px;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 #navitems {
-    margin-left: 120px;
+    margin-left: 140px;
+    font-family: 'Open Sans', sans-serif;
+    color: lightgray;
+    padding-right: 20px;
+}
 
+#navitems a {
+    color: lightgray;
+    font-size: 12px;
 }
 
 .item {
     list-style-type: none;
     display: inline-block;
     color: lightgray;
+}
+
+#footerimage1 {
+    background-image: url("article-image-1.jpg")
+}
+
+#footerimage2 {
+    background-image: url("article-image-2.jpg")
+}
+
+#footerimage3 {
+    background-image: url("article-image-3.jpg")
+}
+
+#footerimage4 {
+    background-image: url("article-image-4.jpg")
+}
+
+.footer-image-text {
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    padding-left: 10px;
 }
