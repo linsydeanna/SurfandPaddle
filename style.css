@@ -316,13 +316,13 @@ footer {
 #footerimage4 {
   background: url("article-image-4.jpg"); }
 
+.footerimage {
+  display: flex;
+  align-items: flex-end;
+}
+
 .footer-image-text {
-  padding-top: 10px;
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
-  width: 250px;
   color: white;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 100px;
   padding-left: 10px; }
