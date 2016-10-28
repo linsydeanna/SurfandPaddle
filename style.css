@@ -157,16 +157,19 @@ blockquote {
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
   margin-right: 20px;
+  width: 160px;
   background-color: #A3B3BF;
 }
 
 .share-icons-text {
   position: relative;
   font-size: 12px;
+  width: 100%;
+  text-align: center;
 }
 
 .share-icons-text p {
-  margin: 10px 8px;
+  top: 50%;
   color: white;
 }
 
