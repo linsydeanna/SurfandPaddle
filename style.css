@@ -21,8 +21,12 @@ body {
   flex-direction: column;
   justify-content: center; }
 
-a {
+a, a:visited {
   text-decoration: none;
+}
+
+#rightnav a:visited {
+  color: #083452;
 }
 
 header {
@@ -140,6 +144,14 @@ blockquote {
   background-color: #5E686F;
   }
 
+#share-icons a:hover .icon {
+  background-color: #083452;
+}
+
+#share-icons a:hover .share-icons-text {
+  background-color: #106db3;
+}
+
 .share {
   display: flex;
   justify-content: space-between;
@@ -253,7 +265,7 @@ footer {
 .footerimage {
   width: 25%;
   height: 309px;
-  background-color: #106db3; }
+ }
 
 #tiylogo {
   width: 40px;
@@ -285,16 +297,24 @@ footer {
   color: lightgray; }
 
 #footerimage1 {
-  background-image: url("article-image-1.jpg"); }
+  background:url("article-image-1.jpg");}
+
+/*.filter {
+  background-color: #106db3;
+}
+
+#footerimage1:hover {
+  opacity: 1;
+  }*/
 
 #footerimage2 {
-  background-image: url("article-image-2.jpg"); }
+  background: url("article-image-2.jpg"); }
 
 #footerimage3 {
-  background-image: url("article-image-3.jpg"); }
+  background: url("article-image-3.jpg"); }
 
 #footerimage4 {
-  background-image: url("article-image-4.jpg"); }
+  background: url("article-image-4.jpg"); }
 
 .footer-image-text {
   padding-top: 10px;
