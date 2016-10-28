@@ -162,10 +162,11 @@ blockquote {
 
 .share-icons-text {
   position: relative;
+  font-size: 12px;
 }
 
 .share-icons-text p {
-  margin: 8px 8px;
+  margin: 10px 8px;
   color: white;
 }
 
@@ -209,6 +210,10 @@ blockquote {
   margin-top: 5px;
   margin: 0 auto;
   padding-bottom: 60px; }
+
+  #social-media-links a {
+    font-size: 14px;
+  }
 
 .social-media-divide {
   margin: 0 auto;
@@ -260,7 +265,8 @@ footer {
   color: lightgray;
   list-style-type: none;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-between;}
 
 .footerimage {
   width: 25%;
@@ -277,12 +283,16 @@ footer {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-  margin-left: 90px;
+  margin-left: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px; }
 
+/*.bottom-nav {
+  display: flex;
+  align-self: flex-end;
+}*/
+
 #navitems {
-  margin-left: 240px;
   font-family: 'Open Sans', sans-serif;
   color: lightgray;
   padding-right: 20px; }
